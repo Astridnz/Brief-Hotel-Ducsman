@@ -13,10 +13,13 @@
 /* --------------------------------- Forms --------------------------------- */
 /* --------------------------------- Header --------------------------------- */
 .nav-prancipal {
-  background-color: azure;
+  background-color: bisque;
   width: 20%;
-  height: 100%;
-  float: left;
+}
+
+h1 {
+  color: #AB8A62;
+  text-align: center;
 }
 
 /* --------------------------------- Sidebar --------------------------------- */
@@ -28,6 +31,8 @@ body {
   background-color: #2b2b2b;
   color: rgba(255, 255, 255, 0.9607843137);
   display: flex;
+  width: 90%;
+  margin: auto;
 }
 
 /* --------------------------------- Library style sheets -- ici-Bootstrap --------------------------------- *//*# sourceMappingURL=main.css.map */
