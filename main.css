@@ -10,20 +10,14 @@
 /* --------------------------------- Dropdown --------------------------------- */
 /* --------------------------------- Flexbox system --------------------------------- */
 /* --------------------------------- Footer --------------------------------- */
-.footer_apropos {
-  border: red solid 2px;
+footer h3 {
+  font-family: "Barlow Condensed", serif;
+  font-size: 20px;
+  font-weight: 500;
 }
-
-.footer_title {
-  border: green solid px;
-}
-
-.footer_text {
-  border: yellow solid 2px;
-}
-
-.footer_apropos {
-  border: red solid 2px;
+footer p {
+  font-family: "Montserrat", serif;
+  font-size: 14px;
 }
 
 /* --------------------------------- Forms --------------------------------- */

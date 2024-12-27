@@ -1,19 +1,13 @@
 /* --------------------------------- Footer --------------------------------- */
 
-.footer_apropos{
-  border: red solid 2px;
+footer{
+  h3{
+    font-family: $font-family-title-h2;
+    font-size: $font-size-m;
+    font-weight:500;
 }
-
-.footer_title{
-  border: green solid px;
+  p{
+    font-family: $font-family-text;
+    font-size: $font-size-xs;
+  }
 }
-
-.footer_text{
-  border: yellow solid 2px;
-}
-
-.footer_apropos{
-  border: red solid 2px;
-}
-
-
