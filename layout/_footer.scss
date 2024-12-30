@@ -12,7 +12,7 @@
   justify-content: space-between;
   
 
-    h3{
+    .titre4{
     font-family: $font-family-title;
     font-size: $font-size-m;
     font-weight:500;
@@ -45,6 +45,7 @@
     margin: 5px 5px;
     display: flex;
     justify-content: space-between;
+    color: yellow;
   }
 
   &__phone{
