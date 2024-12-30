@@ -1,7 +1,26 @@
-.nav-prancipal {
-  background-color: bisque;
+.navbar{
+  background-color: $nav-background-color;
   width: 20%;
-}
-h1 {color: $accent-color;
-  text-align: center;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+
+  .titre3{
+    text-align: center;
+    color: $accent-color;
+    padding: 0;
+  }
+  .titregold{
+    text-align: center;
+    color: $title-color;
+
+  .navbar ul{
+    list-style: none;
+  }
+
+  }
+
+  
 }
