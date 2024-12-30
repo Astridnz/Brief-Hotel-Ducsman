@@ -1,6 +1,7 @@
 /* --------------------------------- Buttons --------------------------------- */
 
 .cinqetoiles{
+  border: red solid 2px;
   color: $accent-color;
   display: flex;
   flex-direction: row;
@@ -8,3 +9,13 @@
   align-items: center;
   margin-top: 5%;
 }
+
+// --->bout de code à insérer dans le html<---
+
+// <div class="cinqetoiles">
+//       <p class="ti-star"></p>
+//       <p class="ti-star"></p>
+//       <p class="ti-star"></p>
+//       <p class="ti-star"></p>
+//       <p class="ti-star"></p>
+//     </div>
