@@ -6,6 +6,7 @@
   border: red 2px dotted;
   width: 80%;
   float: right;
+<<<<<<< HEAD
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -13,6 +14,16 @@
 
     h3{
     font-family: $font-family-sub-title;
+=======
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+
+    h3{
+    font-family: $font-family-title;
+>>>>>>> abc4ac9f8e314bdce245f4ca088c65d9af7a2f89
     font-size: $font-size-m;
     font-weight:500;
   }

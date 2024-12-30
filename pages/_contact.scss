@@ -1,1 +1,47 @@
 /* --------------------------------- Contact specific styles --------------------------------- */
+
+.contact{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  margin: auto;
+}
+.column_infos{
+  display: flex;
+  flex-direction: column;
+}
+
+.form_color{
+  background-color: $main-background-color;
+
+}
+
+.TEL-EMAIL{
+  color : $accent-color;
+  font-size: $font-size-s ;
+}
+
+.button_sub{
+  background-color: $accent-color;
+  color: $text-color;
+}
+
+input{
+  background-color: $main-background-color;
+  border:none;
+  border-bottom: 2px ;
+}
+
+textarea {
+  background-color: $main-background-color;
+}
+
+
+iframe{
+ // width: 100%; /*Paramètre map pour tous width de site*/
+  max-width: 800px;
+  height: auto;
+  justify-content:center;
+  border: 1px;
+  margin: 0 auto;/*Paramètre center*/
+}
