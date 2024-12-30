@@ -37,9 +37,34 @@
 .nav-principal ul li a {
   color: #d4d1d193;
   text-decoration: none;
+  line-height: 3em;
   
 }
 
 .nav-principal ul li a:hover {
   color: #d4a373;
 }
+.div-lien {
+  margin-top: 50px;
+}
+.contact-information {
+  display: flex;
+  margin: 10px;
+  border: solid red;
+}
+.iformation {
+  border: solid rgb(226, 216, 216);
+  text-align: left;
+  
+}
+.icon {
+  border:solid rgb(195, 255, 0);
+}
+h4 {
+  text-align: left;
+  color: rgb(237, 170, 0);
+  margin-top: -10px;
+
+
+}
+

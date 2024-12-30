@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* --------------------------------- Main Sass input file --------------------------------- */
 /* --------------------------------- DON'T TOUCH --------------------------------- */
 /* --------------------------------- Sass Mixins --------------------------------- */
@@ -59,15 +60,102 @@ footer p {
 .nav-principal ul li a {
   color: rgba(212, 209, 209, 0.5764705882);
   text-decoration: none;
+  line-height: 3em;
 }
 
 .nav-principal ul li a:hover {
   color: #d4a373;
 }
 
+.div-lien {
+  margin-top: 50px;
+}
+
+.contact-information {
+  display: flex;
+  margin: 10px;
+  border: solid red;
+}
+
+.iformation {
+  border: solid rgb(226, 216, 216);
+  text-align: left;
+}
+
+.icon {
+  border: solid rgb(195, 255, 0);
+}
+
+h4 {
+  text-align: left;
+  color: rgb(237, 170, 0);
+  margin-top: -10px;
+}
+
 /* --------------------------------- Sidebar --------------------------------- */
 /* --------------------------------- Contact specific styles --------------------------------- */
 /* --------------------------------- Home specific styles --------------------------------- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #1b1a1a;
+  display: flex;
+  margin: auto;
+}
+
+.hero {
+  background: url() no-repeat center center/cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .hero-content h2 {
+  font-size: 36px;
+  color: #e7e7e7;
+}
+
+.details {
+  background-color: #1b1a1a;
+  padding: 40px 20px;
+  color: #ddd;
+}
+
+.details h3 {
+  font-size: 28px;
+  color: #d4a373;
+}
+
+.details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details ul li {
+  margin: 5px 0;
+}
+
+.details ul li::before {
+  content: "✓";
+  margin-right: 10px;
+  color: #d4a373;
+}
+
+main {
+  width: 80%;
+}
+
+.button {
+  background-color: #d4a373;
+  border: none;
+  padding: 10px 20px;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 /* --------------------------------- Admin theme --------------------------------- */
 /* --------------------------------- Default theme --------------------------------- */
 body {
