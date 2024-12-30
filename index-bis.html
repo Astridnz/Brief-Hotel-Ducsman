@@ -14,20 +14,21 @@
 </head>
 <body>
 
-
+<main>
   <section class="intro">
+
+    <div class="intro-grid">
+
+    <div class="intro__text">
     
-    <div class="cinqetoiles">
-      <p class="ti-star"></p>
-      <p class="ti-star"></p>
-      <p class="ti-star"></p>
-      <p class="ti-star"></p>
-      <p class="ti-star"></p>
-    </div>
+      <div class="cinqetoiles">
+        <span class="ti-star"></span>
+        <span class="ti-star"></span>
+        <span class="ti-star"></span>
+        <span class="ti-star"></span>
+        <span class="ti-star"></span>
+      </div>
 
-
-
-    <div class="text">
       <p class="titregold">hôtel de luxe ducsman</p>
 
       <p class="titre2">L'expérience du luxe</p>
@@ -36,49 +37,83 @@
         Bienvenue dans le meilleur hôtel 5 étoiles de Paris.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         A explicabo temporibus cupiditate repellat eius. Hic, rem, doloremque itaque impedit in quam 
-        voluptates aliquam sunt nesciunt voluptate omnis quis est eaque.
-        <br>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        voluptates aliquam sunt nesciunt voluptate omnis quis est eaque.</p>
+        
+        <p class="textdesciption">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         Temporibus aut eaque totam, enim deserunt, iure dolore quae voluptates saepe voluptas quia. 
-        Recusandae natus consequatur atque animi ea iure sequi itaque?
-    </div>
-    <div class="images">
+        Recusandae natus consequatur atque animi ea iure sequi itaque?</p>
+
+      </div>
+
+
+    <div class="intro__images">
         <img src="ressources Ducsman/images/rooms/chambre-familiale.jpg" alt="Chambre luxueuse">
         <img src="ressources Ducsman/images/restaurant/restaurant-home.jpg" alt="Restaurant élégant">
     </div>
   </section>
 
   <section class="rooms">
-    <h3>Chambres & Suites</h3>
+    <p class="titre2">Chambres <span class="esperluette">&</span> Suites</p>
 
-      <div class="room-grid">
+      <div class="room-flex">
 
-        <div class="room">
+        <div class="rooms__room">
             <img src="ressources Ducsman/images/rooms/suite-junior.jpg" alt="Suite Junior">
-            <p>Suite Junior</p>
+
+              <div class="rooms__room_info">
+                <button class="btn-reserver">RESERVER</button>
+                <p class="tarif">150€ /nuit</p>
+                <p class="titre4"><span>Suit</span>e Junior</p>
+                
+              </div>
+
         </div>
 
-        <div class="room">
+        <div class="rooms__room">
             <img src="ressources Ducsman/images/rooms/chambre-familiale.jpg" alt="Chambre Familiale">
-            <p>Chambre Familiale</p>
+
+              <div class="rooms__room_info">
+                <button class="btn-reserver">RESERVER</button>
+                <p class="tarif">200€ /nuit</p>
+                <p class="titre4"><span>Chamb</span>re Familiale</p>
+              </div>
+            
         </div>
 
-        <div class="room">
+        <div class="rooms__room">
             <img src="ressources Ducsman/images/rooms/chambre-double.jpg" alt="Chambre Double">
-            <p>Chambre Double</p>
+
+            <div class="rooms__room_info">
+              <button class="btn-reserver">RESERVER</button>
+                <p class="tarif">150€ /nuit</p>
+              <p class="titre4"><span>Chamb</span>re Double</p>
+
+            </div>
+            
         </div>
 
-        <div class="room">
+        <div class="rooms__room">
             <img src="ressources Ducsman/images/rooms/chambre-deluxe.jpg" alt="Chambre Deluxe">
-            <p>Chambre Deluxe</p>
+
+            <div class="rooms__room_info">
+              <p class="titre4"><span>Chamb</span>re Deluxe</p>
+              <button class="btn-reserver">RESERVER</button>
+            </div>
+            
         </div>
         
-        <div class="room">
+        <div class="rooms__room">
             <img src="ressources Ducsman/images/rooms/chambre-superieure.jpg" alt="Chambre Supérieure">
-            <p>Chambre Supérieure</p>
-        </div>
 
-      </div>
+            <div class="rooms__room_info">
+              <p class="titre4"><span>Chamb</span>re Supérieure</p>
+
+              <button class="btn-reserver">RESERVER</button>
+            </div>
+            
+        </div>
+      </div> 
+    </div>
   </section>
 
 
@@ -87,50 +122,62 @@
 
       <div class="facility">
         <img src="ressources Ducsman/images/restaurant/le-restaurant.jpg" alt="restaurant">
-        <p class="titregold">découverte</p>
-        <p class="titre3">Le Restaurant</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Perferendis delectus quidem reprehenderit obcaecati. 
-          Eos perspiciatis ipsa recusandae id perferendis, sint 
-          eaque animi consequatur officiis, dicta cumque maiores autem! 
-          Neque, sequi!</p>
-        <button class="en-savoir-plus" type="button">EN SAVOIR PLUS</button>
+        
+        <div class="facility__description">
+          <p class="titregold">découverte</p>
+          <p class="titre3">Le Restaurant</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Perferendis delectus quidem reprehenderit obcaecati. 
+            Eos perspiciatis ipsa recusandae id perferendis, sint 
+            eaque animi consequatur officiis, dicta cumque maiores autem! 
+            Neque, sequi!</p>
+          <button class="en-savoir-plus" type="button">EN SAVOIR PLUS</button>
+        </div>
       </div>
 
       <div class="facility">
         <img src="ressources Ducsman/images/spa/centre-de-bien-etre.jpg" alt="Spa">
-        <p class="titregold">expérience</p>
-        <p class="titre3">Centre de bien-être</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Perferendis delectus quidem reprehenderit obcaecati. 
-          Eos perspiciatis ipsa recusandae id perferendis, sint 
-          eaque animi consequatur officiis, dicta cumque maiores autem! 
-          Neque, sequi!</p>
+
+        <div class="facility__description">
+          <p class="titregold">expérience</p>
+          <p class="titre3">Centre de bien-être</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Perferendis delectus quidem reprehenderit obcaecati. 
+            Eos perspiciatis ipsa recusandae id perferendis, sint 
+            eaque animi consequatur officiis, dicta cumque maiores autem! 
+            Neque, sequi!</p>
           <button class="en-savoir-plus" type="button">EN SAVOIR PLUS</button>
+        </div>
       </div>
 
       <div class="facility">
         <img src="ressources Ducsman/images/spa/centre-de-fitness.jpg" alt="centre de fitness">
-        <p class="titregold">épanouissement</p>
-        <p class="titre3">Centre de fitness</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Perferendis delectus quidem reprehenderit obcaecati. 
-          Eos perspiciatis ipsa recusandae id perferendis, sint 
-          eaque animi consequatur officiis, dicta cumque maiores autem! 
-          Neque, sequi!</p>
+
+        <div class="facility__description">
+          <p class="titregold">épanouissement</p>
+          <p class="titre3">Centre de fitness</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Perferendis delectus quidem reprehenderit obcaecati. 
+            Eos perspiciatis ipsa recusandae id perferendis, sint 
+            eaque animi consequatur officiis, dicta cumque maiores autem! 
+            Neque, sequi!</p>
           <button class="en-savoir-plus" type="button">EN SAVOIR PLUS</button>
+        </div>
       </div>
 
       <div class="facility">
-        <img src="ressources Ducsman/images/spa/centre-aquatique.jpg" alt="PIscine">
-        <p class="titregold">expérience</p>
-        <p class="titre3">Centre aquatique</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Perferendis delectus quidem reprehenderit obcaecati. 
-          Eos perspiciatis ipsa recusandae id perferendis, sint 
-          eaque animi consequatur officiis, dicta cumque maiores autem! 
-          Neque, sequi!</p>
+        <img src="ressources Ducsman/images/spa/centre-aquatique.jpg" alt="Piscine">
+
+        <div class="facility__description">
+          <p class="titregold">expérience</p>
+          <p class="titre3">Centre aquatique</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Perferendis delectus quidem reprehenderit obcaecati. 
+            Eos perspiciatis ipsa recusandae id perferendis, sint 
+            eaque animi consequatur officiis, dicta cumque maiores autem! 
+            Neque, sequi!</p>
           <button class="en-savoir-plus" type="button">EN SAVOIR PLUS</button>
+        </div>
       </div>
 
 </section>
@@ -193,6 +240,7 @@
 
   </section>
 
+
   <footer class="footer">
   
     <div class="footer__apropos">
@@ -239,5 +287,6 @@
     </div>
 
   </footer>
+</main>
 </body>
 </html>

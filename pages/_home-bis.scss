@@ -1,3 +1,241 @@
+
+main {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+
+  // --------bloc INTRO--------------------------------------------------------------
+  .intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    .titregold{
+      padding-top: 1em;
+    }
+
+    .titre2{
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+    }
+
+    .textdesciption{
+      line-height: 2em;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 50%  50%;
+      gap: 20px;
+    }
+
+    &__images img{
+      width: 40%;
+      margin: 20px;
+    }
+  }
+
+ // --------bloc ROOMS----------------------------------------------------------------  
+
+  .rooms{
+    margin: 40px 0;
+
+    .titre2{
+      padding-bottom: 1em;
+    }
+    .room-flex{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    &__room {
+      text-align: center;
+      flex-basis: calc(33.33% - 30px); 
+      max-width: calc(33.33% - 30px);
+      position: relative;
+
+      &:nth-child(n+4) {
+        flex-basis: calc(49% - 20px);
+        max-width: calc(49% - 20px);
+      }
+
+      img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+    
+    .rooms__room_info {
+        font-size: $font-size-m;
+        position: absolute;
+        bottom: 0; /* Garde le texte en bas */
+        left: 0;
+        right: 0;
+        color: white;
+        padding: 10px;
+        margin: 0;
+
+
+      span{
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-color: $title-color;
+        text-decoration-thickness: 0.01em;
+        text-underline-offset: 0.3em;
+      }
+
+      .tarif{
+        color: $title-color;
+        text-transform: uppercase;
+        letter-spacing: 0.5cap;
+        font-size: $font-size-xs;
+        text-align: start ;
+        padding: 0;
+        margin: 0;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+  // --------bloc WELLNESS--------------------------------------------------------------
+
+.wellness{
+  border: red solid;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+
+
+
+
+
+
+/* Wellness section */
+
+
+.facilities {
+  border: green solid;
+  display: flex;
+  gap: 20px;
+}
+.facility{
+  border: cyan  solid;
+  display: flex;
+  flex-direction: column ;
+  
+ 
+
+}
+.facility img {
+  border: blueviolet  solid;
+  width: 100%;
+  
+}
+
+.facility__description{
+  border: orange  solid;
+}
+.facility h4 {
+  border: yellow  solid;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.facility p {
+  border: palevioletred solid;
+  font-size: 14px;
+}
+
+/* Options */
+.options {
+  margin: 40px 0;
+}
+
+.option-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.option {
+  background-color: #292929;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Extra services */
+.extra-services {
+  margin: 40px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.service {
+  background-color: #292929;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .services {
   border: red solid 2px;
   display: flex;
