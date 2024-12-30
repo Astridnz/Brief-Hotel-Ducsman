@@ -1,18 +1,346 @@
-/* Error: expected ";".
- *    ,
- * 13 | $font-family-title-h1: "Playfair", serif;
- *    |                      ^
- *    '
- *   abstracts/_variables.scss 13:22  @import
- *   main.scss 6:8                    root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a    \2577 \a 13 \2502  $font-family-title-h1: "Playfair", serif;\a    \2502                       ^\a    \2575 \a   abstracts/_variables.scss 13:22  @import\a   main.scss 6:8                    root stylesheet';
+@charset "UTF-8";
+/* --------------------------------- Main Sass input file --------------------------------- */
+/* --------------------------------- DON'T TOUCH --------------------------------- */
+/* --------------------------------- Sass Mixins --------------------------------- */
+/* --------------------------------- Reset/Normalize --------------------------------- */
+/* --------------------------------- Typography rules --------------------------------- */
+/* --------------------------------- Typography rules --------------------------------- */
+.titre1 {
+  color: white;
+  font-size: 3em;
+  font-family: "Playfair", serif;
+  text-transform: uppercase;
+  letter-spacing: 1cap;
+  margin: 0em;
+  padding: 0em;
 }
+
+.titre2 {
+  color: white;
+  font-size: 2em;
+  font-family: "Playfair", serif;
+  text-align: start;
+  margin: 0em;
+  padding: 0em;
+}
+
+.titre3 {
+  color: white;
+  font-size: 1.5em;
+  font-family: "Playfair", serif;
+  text-align: start;
+  margin: 0em;
+  padding: 0em;
+}
+
+.titre4 {
+  color: white;
+  font-size: 1.2em;
+  font-family: "Playfair", serif;
+  text-align: start;
+  margin: 0em;
+  padding: 0em;
+}
+
+.textdesciption {
+  color: #888888;
+  font-size: 0.7em;
+  font-family: "Montserrat", serif;
+  text-align: start;
+  margin: 0em;
+  padding: 0em;
+}
+
+.titregold {
+  color: #95744c;
+  font-size: 0.7em;
+  font-family: "Barlow Condensed", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5cap;
+  text-align: start;
+  margin: 0em;
+  padding: 0em;
+}
+
+/* --------------------------------- Buttons --------------------------------- */
+.cinqetoiles {
+  color: #95744c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+/* --------------------------------- Carousel --------------------------------- */
+/* --------------------------------- Cover --------------------------------- */
+/* --------------------------------- Dropdown --------------------------------- */
+/* --------------------------------- Flexbox system --------------------------------- */
+/* --------------------------------- Footer --------------------------------- */
+.footer {
+  border: red 2px dotted;
+  width: 80%;
+  float: right;
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer h3 {
+  font-family: "Playfair", serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.footer p {
+  font-family: "Montserrat", serif;
+  font-size: 0.7em;
+}
+.footer a {
+  text-decoration: none;
+  color: #888888;
+}
+.footer__apropos {
+  border: blue dotted 2px;
+  width: 40%;
+  margin-left: 10%;
+}
+.footer__contact {
+  border: dotted 2px violet;
+  width: -moz-max-content;
+  width: max-content;
+  margin-right: 10%;
+  padding-left: 10px;
+  text-align: left;
+}
+.footer__contact__iconesReseauxSociaux {
+  border: dotted 2px skyblue;
+  margin: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__contact__phone {
+  border: green 2px dotted;
+  text-align: left;
+}
+.footer__contact__mailHotel {
+  border: purple dotted 2px;
+  text-decoration: underline;
+  text-decoration-color: #95744c;
+  font-weight: 600;
+}
+.footer__mentionsLégales {
+  border: dotted 2px yellow;
+  width: 100%;
+  text-align: center;
+  font-size: 0.7em;
+  padding: 20px;
+  background-color: #1e1e1e;
+}
+.footer__mentionsLégales span {
+  font-weight: bold;
+}
+
+/* --------------------------------- Forms --------------------------------- */
+/* --------------------------------- Header --------------------------------- */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1b1a1a;
+}
+
+.nav-principal {
+  background-color: #131212;
+  padding: 20px 0;
+  width: 20%;
+  text-align: left;
+}
+
+.nav-principal h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #d4a373;
+  text-align: center;
+}
+
+.nav-principal p {
+  margin: 5px 0;
+  color: #bbb;
+  text-align: center;
+}
+
+.nav-principal ul {
+  list-style: none;
+  padding: 0;
+  display: contents;
+  gap: 15px;
+}
+
+.nav-principal ul li a {
+  color: rgba(212, 209, 209, 0.5764705882);
+  text-decoration: none;
+  line-height: 3em;
+}
+
+.nav-principal ul li a:hover {
+  color: #d4a373;
+}
+
+.div-lien {
+  margin-top: 50px;
+}
+
+.contact-information {
+  display: flex;
+  margin: 10px;
+  border: solid red;
+}
+
+.iformation {
+  border: solid rgb(226, 216, 216);
+  text-align: left;
+}
+
+.icon {
+  border: solid rgb(195, 255, 0);
+}
+
+h4 {
+  text-align: left;
+  color: rgb(237, 170, 0);
+  margin-top: -10px;
+}
+
+/* --------------------------------- Sidebar --------------------------------- */
+/* --------------------------------- Contact specific styles --------------------------------- */
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+.column_infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_color {
+  background-color: #222222;
+}
+
+.TEL-EMAIL {
+  color: #95744c;
+  font-size: 1.2em;
+}
+
+.button_sub {
+  background-color: #95744c;
+  color: #888888;
+}
+
+input {
+  background-color: #222222;
+  border: none;
+  border-bottom: 2px;
+}
+
+textarea {
+  background-color: #222222;
+}
+
+iframe {
+  max-width: 800px;
+  height: auto;
+  justify-content: center;
+  border: 1px;
+  margin: 0 auto; /*Paramètre center*/
+}
+
+/* --------------------------------- Home specific styles --------------------------------- */
+.services {
+  border: red solid 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.services__service {
+  border: yellow solid 2px;
+}
+.services__service__icone {
+  border: blueviolet solid 2px;
+}
+
+/* --------------------------------- detail-chambre.scss --------------------------------- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #1b1a1a;
+  display: flex;
+  margin: auto;
+}
+
+.hero {
+  background: url() no-repeat center center/cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .hero-content h2 {
+  font-size: 36px;
+  color: #e7e7e7;
+}
+
+.details {
+  background-color: #1b1a1a;
+  padding: 40px 20px;
+  color: #ddd;
+}
+
+.details h3 {
+  font-size: 28px;
+  color: #d4a373;
+}
+
+.details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details ul li {
+  margin: 5px 0;
+}
+
+.details ul li::before {
+  content: "✓";
+  margin-right: 10px;
+  color: #d4a373;
+}
+
+main {
+  width: 80%;
+}
+
+.button {
+  background-color: #d4a373;
+  border: none;
+  padding: 10px 20px;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* --------------------------------- Admin theme --------------------------------- */
+/* --------------------------------- Default theme --------------------------------- */
+body {
+  background-color: #222222;
+  color: #888888;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+/* --------------------------------- Library style sheets -- ici-Bootstrap --------------------------------- *//*# sourceMappingURL=main.css.map */
