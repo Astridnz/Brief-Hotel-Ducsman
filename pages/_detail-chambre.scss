@@ -1,3 +1,4 @@
+/* --------------------------------- detail-chambre.scss --------------------------------- */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -49,4 +50,12 @@ body {
 main {
   width: 80%;
 
+}
+.button {
+  background-color: #d4a373;
+  border: none;
+  padding: 10px 20px;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
 }
