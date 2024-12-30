@@ -1,0 +1,61 @@
+/* --------------------------------- detail-chambre.scss --------------------------------- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #1b1a1a;
+  display: flex;
+  margin: auto;
+}
+
+
+.hero {
+  background: url() no-repeat center center/cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .hero-content h2 {
+  font-size: 36px;
+  color: #e7e7e7;
+}
+
+.details {
+  background-color: #1b1a1a;
+  padding: 40px 20px;
+  color: #ddd;
+}
+
+.details h3 {
+  font-size: 28px;
+  color: #d4a373;
+}
+
+.details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details ul li {
+  margin: 5px 0;
+}
+
+.details ul li::before {
+  content: "\2713";
+  margin-right: 10px;
+  color: #d4a373;
+}
+main {
+  width: 80%;
+
+}
+.button {
+  background-color: #d4a373;
+  border: none;
+  padding: 10px 20px;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+}

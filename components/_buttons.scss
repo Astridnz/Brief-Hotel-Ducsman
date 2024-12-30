@@ -1,1 +1,10 @@
 /* --------------------------------- Buttons --------------------------------- */
+
+.cinqetoiles{
+  color: $accent-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}

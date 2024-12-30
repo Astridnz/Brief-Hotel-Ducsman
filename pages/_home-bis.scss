@@ -1,0 +1,14 @@
+.services {
+  border: red solid 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &__service{
+    border: yellow  solid 2px;
+
+    &__icone{
+      border: blueviolet  solid 2px;
+    }
+  }
+}
