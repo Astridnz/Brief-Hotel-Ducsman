@@ -1,48 +1,18 @@
-/* --------------------------------- Main Sass input file --------------------------------- */
-/* --------------------------------- DON'T TOUCH --------------------------------- */
-/* --------------------------------- Sass Mixins --------------------------------- */
-/* --------------------------------- Sass Variables --------------------------------- */
-/* --------------------------------- Reset/Normalize --------------------------------- */
-/* --------------------------------- Typography rules --------------------------------- */
-/* --------------------------------- Buttons --------------------------------- */
-/* --------------------------------- Carousel --------------------------------- */
-/* --------------------------------- Cover --------------------------------- */
-/* --------------------------------- Dropdown --------------------------------- */
-/* --------------------------------- Flexbox system --------------------------------- */
-/* --------------------------------- Footer --------------------------------- */
-footer h3 {
-  font-family: "Barlow Condensed", serif;
-  font-size: 20px;
-  font-weight: 500;
-}
-footer p {
-  font-family: "Montserrat", serif;
-  font-size: 14px;
-}
+/* Error: expected ";".
+ *    ,
+ * 13 | $font-family-title-h1: "Playfair", serif;
+ *    |                      ^
+ *    '
+ *   abstracts/_variables.scss 13:22  @import
+ *   main.scss 6:8                    root stylesheet */
 
-/* --------------------------------- Forms --------------------------------- */
-/* --------------------------------- Header --------------------------------- */
-.nav-prancipal {
-  background-color: bisque;
-  width: 20%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ";".\a    \2577 \a 13 \2502  $font-family-title-h1: "Playfair", serif;\a    \2502                       ^\a    \2575 \a   abstracts/_variables.scss 13:22  @import\a   main.scss 6:8                    root stylesheet';
 }
-
-h1 {
-  color: #AB8A62;
-  text-align: center;
-}
-
-/* --------------------------------- Sidebar --------------------------------- */
-/* --------------------------------- Contact specific styles --------------------------------- */
-/* --------------------------------- Home specific styles --------------------------------- */
-/* --------------------------------- Admin theme --------------------------------- */
-/* --------------------------------- Default theme --------------------------------- */
-body {
-  background-color: #2b2b2b;
-  color: rgba(255, 255, 255, 0.9607843137);
-  display: flex;
-  width: 90%;
-  margin: auto;
-}
-
-/* --------------------------------- Library style sheets -- ici-Bootstrap --------------------------------- *//*# sourceMappingURL=main.css.map */
