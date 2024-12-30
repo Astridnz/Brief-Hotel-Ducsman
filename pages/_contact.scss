@@ -1,30 +1,62 @@
-/* --------------------------------- Contact specific styles --------------------------------- */
+/* --------------------------------- Contact specific styles --------------------------------- */ 
 
-.contact{
+.contact-main{
   display: flex;
   flex-direction:row;
   align-items: center;
-  margin: auto;
+  margin:0;
+  width: 100%;
 }
-.column_infos{
+
+.dispflex{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  padding:20px 0;
+}
+
+.column{         //setting for width of information text box
   display: flex;
   flex-direction: column;
+  max-height: max-content;
 }
 
-.form_color{
-  background-color: $main-background-color;
+.Div{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  height:50vh ;
 
+  &_info{       //setting for width of information text box
+    width: 50%;
+    //height: 1000px;
+  }
+  &_form{
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    padding:20px 0;
+  }
 }
+.table-deplacement{
+  width: 100%;
+  height: 30cap;
+}
+
+.icons{         //setting for width of information icons box
+  width: 80px;
+  text-align:center ;
+  font-size: 50px;
+  color : $accent-color;
+}
+
+
 
 .TEL-EMAIL{
   color : $accent-color;
   font-size: $font-size-s ;
 }
 
-.button_sub{
-  background-color: $accent-color;
-  color: $text-color;
-}
 
 .main {
     background-color: $main-background-color;
@@ -38,23 +70,32 @@
 }
 
 input{
-  background-color: $main-background-color;
-  border:none;
-  border-bottom: 2px $text-color;
+  background-color: $main-background-color;//textbox backgraund color
+  border:none;                    //Supplimer border
+  border-bottom: 1px solid $text-color;//Pour définir bottom border 
+  //height: 30px;
+
+  
 }
 
 textarea {
+  height: 100px;
   background-color: $main-background-color;
   border:none;
-  border-bottom: 2px $text-color;
+  border-bottom: 1px solid $text-color;
 }
 
 
 iframe{
  // width: 100%; /*Paramètre map pour tous width de site*/
-  max-width: 800px;
-  height: auto;
+  width: 100%;
+  height: 600px;
   justify-content:center;
   border: 1px;
-  margin: 0 auto;/*Paramètre center*/
+  margin: auto;/*Paramètre center*/
+  filter: grayscale(100);
 }
+
+/*th,td{
+  border: 1px solid white;
+}*/

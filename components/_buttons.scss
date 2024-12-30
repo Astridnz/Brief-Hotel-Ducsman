@@ -1,8 +1,8 @@
 /* --------------------------------- Buttons --------------------------------- */
 
 .cinqetoiles{
-  border: red solid 2px;
-  color: $accent-color;
+  background-color:$accent-color ;
+  color:$title-color ;
   display: flex;
   flex-direction: row;
   justify-content: center;
