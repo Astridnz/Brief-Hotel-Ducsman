@@ -11,14 +11,67 @@
 /* --------------------------------- Dropdown --------------------------------- */
 /* --------------------------------- Flexbox system --------------------------------- */
 /* --------------------------------- Footer --------------------------------- */
-footer h3 {
+.footer {
+  border: red 2px dotted;
+  width: 80%;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  float: inline-end;
+}
+.footer h3 {
   font-family: "Barlow Condensed", serif;
   font-size: 20px;
   font-weight: 500;
 }
-footer p {
+.footer p {
   font-family: "Montserrat", serif;
-  font-size: 14px;
+  font-size: 10px;
+}
+.footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9607843137);
+}
+.footer__apropos {
+  border: blue dotted 2px;
+  width: 40%;
+  margin-left: 10%;
+}
+.footer__contact {
+  border: dotted 2px violet;
+  width: -moz-max-content;
+  width: max-content;
+  margin-right: 10%;
+  padding-left: 10px;
+  text-align: left;
+}
+.footer__contact__iconesReseauxSociaux {
+  border: dotted 2px skyblue;
+  margin: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__contact__phone {
+  border: green 2px dotted;
+  text-align: left;
+}
+.footer__contact__mailHotel {
+  border: purple dotted 2px;
+  text-decoration: underline;
+  text-decoration-color: #AB8A62;
+  font-weight: 600;
+}
+.footer__mentionsLégales {
+  border: dotted 2px yellow;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+  background-color: #1e1e1e;
+}
+.footer__mentionsLégales span {
+  font-weight: bold;
 }
 
 /* --------------------------------- Forms --------------------------------- */
@@ -95,6 +148,7 @@ h4 {
 /* --------------------------------- Sidebar --------------------------------- */
 /* --------------------------------- Contact specific styles --------------------------------- */
 /* --------------------------------- Home specific styles --------------------------------- */
+<<<<<<< HEAD
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -154,12 +208,25 @@ main {
   color: #333;
   cursor: pointer;
   font-size: 16px;
+=======
+.services {
+  border: red solid 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.services__service {
+  border: yellow solid 2px;
+}
+.services__service__icone {
+  border: blueviolet solid 2px;
+>>>>>>> b5fad7fa8e4bc90519f063feff11b0917f430e9b
 }
 
 /* --------------------------------- Admin theme --------------------------------- */
 /* --------------------------------- Default theme --------------------------------- */
 body {
-  background-color: #2b2b2b;
+  background-color: #222222;
   color: rgba(255, 255, 255, 0.9607843137);
   display: flex;
   width: 90%;
