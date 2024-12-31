@@ -1,1 +1,38 @@
 /* --------------------------------- Buttons --------------------------------- */
+
+.cinqetoiles{
+  color: $accent-color;
+  background-color: rgba(255,255,255,0);
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+// --->bout de code à insérer dans le html<---
+    
+    // <div class="cinqetoiles">
+    //   <span class="ti-star"></span>
+    //   <span class="ti-star"></span>
+    //   <span class="ti-star"></span>
+    //   <span class="ti-star"></span>
+    //   <span class="ti-star"></span>
+    // </div>
+
+
+
+    .btn-reserver {
+      font-family: $font-family-sub-title;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 5px 10px 5px 10px;
+      border: solid #ffffff 2px;
+      text-decoration: none;
+      background-color: rgba(255,255,255,0);
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      position: absolute;
+      left: 75%;
+      bottom: 100%;
+    }
+
+    

@@ -1,1 +1,101 @@
-/* --------------------------------- Contact specific styles --------------------------------- */
+/* --------------------------------- Contact specific styles --------------------------------- */ 
+
+.contact-main{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  margin:0;
+  width: 100%;
+}
+
+.dispflex{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  padding:20px 0;
+}
+
+.column{         //setting for width of information text box
+  display: flex;
+  flex-direction: column;
+  max-height: max-content;
+}
+
+.Div{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  max-height:430px ;
+  justify-items: space-between;
+
+  &_form{ //setting for width of information text box
+    width: 50%;
+    height: 100%;
+  }
+}
+.table-deplacement{
+  width: 100%;
+}
+
+.icons{         //setting for width of information icons box
+  width: 80px;
+  text-align:center ;
+  font-size: 50px;
+  color : $accent-color;
+}
+
+
+
+.TEL-EMAIL{
+  color : $accent-color;
+  font-size: $font-size-s ;
+}
+
+
+.main {
+    background-color: $main-background-color;
+    color: $text-color;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.formsubmit{
+  color: $title-color;
+  background-color:$accent-color;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+input{
+  background-color: $main-background-color;//textbox backgraund color
+  border:none;                    //Supplimer border
+  border-bottom: 1px solid $text-color;//Pour définir bottom border   
+}
+
+.textarea-Form {
+  height: 100px;
+  background-color: $main-background-color;
+  border:none;
+  border-bottom: 1px solid $text-color;
+}
+
+
+iframe{
+ // width: 100%; /*Paramètre map pour tous width de site*/
+  width: 100%;
+  height: 600px;
+  justify-content:center;
+  border: 1px;
+  margin: auto;/*Paramètre center*/
+  filter: grayscale(100);
+}
+
+th,td{
+  //border: 1px solid white;
+  height: 10cap;
+}

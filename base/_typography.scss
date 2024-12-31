@@ -1,1 +1,62 @@
 /* --------------------------------- Typography rules --------------------------------- */
+
+/* --------------------------------- Typography rules --------------------------------- */
+
+.titre1{ 
+  color: $title-color;
+  font-size: $font-size-xl;
+  font-family: $font-family-title;
+  text-transform: uppercase;
+  letter-spacing: 1cap;
+  // text-align: center;
+  margin: 0em;
+  padding: 0em;
+}
+
+.titre2{
+  color: $title-color;
+  font-size: $font-size-l;
+  font-family: $font-family-title;
+  text-align: start;
+  margin: 0em;
+  padding: 0em;
+}
+
+.titre3{
+  color: $title-color;
+  font-size: $font-size-m;
+  font-family: $font-family-title;
+  text-align: start;
+  margin: 0em;
+  padding: 0em;
+}
+
+.titre4{
+  color: $title-color;
+  font-size: $font-size-s;
+  font-family: $font-family-title;
+  text-align: start;
+  margin: 0em;
+  padding: 0em;
+}
+
+.textdesciption{
+  color: $text-color;
+  font-size: $font-size-xs;
+  font-family: $font-family-text;
+  text-align: start;
+  margin: 0em;
+  padding: 0em;
+}
+
+.titregold{
+  color: $accent-color;
+  font-size: $font-size-xs;
+  font-family: $font-family-sub-title;
+  text-transform: uppercase;
+  letter-spacing: 0.5cap;
+  text-align: start;
+  margin: 0em;
+  padding: 0em;
+}
+

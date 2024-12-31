@@ -5,11 +5,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ressources Ducsman/css/flaticons.css">
   <title>CONTACT</title>
 </head>
-<body>
-  
+
+<body class="column" style="border: 3px solid blue;">
+  <nav>
+   Navigation space
+  </nav>
+
+  <main class="main" style="border: 1px solid rgb(251, 0, 255);">
+    <!--contact page general div-->
+    <div class="contact-main" style="border: 1px solid red;"> 
+      <!--contact page l'information d'hotel en Gauche-->
+      <div class="Div_form"  style="border: 3px solid rgb(55, 255, 0);">
+        <div style="border: 3px solid orange;">
+          <h3>Duscman</h3>
+          <p class="textdesciption">Nous sommes à votre disposition pour tous question reative à votre séjour ou  pour prepare le plus luxueux des voyarge </p> 
+        </div>
+          <!-- telephone-->
+        <div class="dispflex" style="border: 3px solid orange;" >
+          <div class="icons"><!--set icons width 100px-->
+              <div class="flaticon-call"></div><!--phone icon-->
+          </div>
+          <div class="column" >
+              <p class="textdesciption"> informations & Réservation</p>
+              <p class="TEL-EMAIL">03 20 01 02 03</p>
+          </div>
+        </div>
+          <!-- E-mail-->
+        <div class="dispflex" style="border: 3px solid orange;" >
+          <div class="icons">  <!--set icons width 100px-->          
+            <div class="flaticon-envelope"></div><!--mail icon-->
+          </div>
+          <div class="column" >
+            <p class="textdesciption">E-mail</p>
+            <p class="TEL-EMAIL">info@ducsman-group.com</p>
+          </div>
+        </div>
+          <!-- adress-->
+        <div class="dispflex" style="border: 3px solid orange;" >
+          <div class="icons"><!--set icons width 100px-->           
+            <div class="flaticon-location-pin"></div><!--address icon-->
+          </div>
+          <div class="column" >
+            <p class="textdesciption">Adresse </p>
+            <p class="textdesciption">avenue des Nations Unies</p>
+            <p class="textdesciption">75001 Paris</p> 
+          </div>
+        </div>
+      </div>
+      <!--contact page l'forme en div Droit-->
+      <div class="Div_form"  style="border: 3px solid rgb(17, 141, 64);">
+          <h3 style="border: 3px solid orange;">Restons en contact</h3>
+          <table class="table-deplacement">
+            <tr>
+              <td><input type="text" name="nom" placeholder="Votre nom*"></td>
+              <td><input type="text" name="nemail" placeholder="Votre e-mail*"></td>
+            </tr>
+            <tr>
+              <td><input type="text" name="telephone" placeholder="Votre numero de téléphone*"></td>
+              <td><input type="text" name="Sujet" placeholder="Sujet*"></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <label class="textdesciption" for="message">message*</label><br>
+                <textarea class="textarea-Form" name="message"maxlength="500"></textarea>
+              </td>
+            </tr> 
+          </table>
+          <button type="submit" class="formsubmit">ENVOIYER</button>
+      </div>
+    </div>
+
+    <!-- Map-->
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.835567262059!2d2.2889342769731393!3d48.86134587133258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe39df5463f%3A0xb358c25f43492e83!2s23%20Av.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1735289630002!5m2!1sfr!2sfr"      
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"
+        class="Container_map">
+    </iframe>
+  </main>
+  <footer>
+
+  </footer>
 </body>
 </html>
