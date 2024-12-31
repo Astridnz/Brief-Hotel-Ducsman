@@ -69,6 +69,14 @@
     flex-wrap: wrap;
 }
 
+.formsubmit{
+  color: $title-color;
+  background-color:$accent-color;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
 input{
   background-color: $main-background-color;//textbox backgraund color
   border:none;                    //Supplimer border
