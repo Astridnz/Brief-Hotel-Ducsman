@@ -4,15 +4,16 @@
   display: flex;
   flex-direction:row;
   align-items: center;
-  margin:0;
-  width: 100%;
+  margin:30px 0;
+  padding: 10px 30px;
 }
 
 .dispflex{
   display: flex;
   flex-direction:row;
   align-items: center;
-  padding:20px 0;
+  margin:20px 0;
+  padding: 10px 0;
 }
 
 .column{         //setting for width of information text box
@@ -24,9 +25,9 @@
 .Div{
   display: flex;
   flex-direction: column;
-  max-width: 1000px;
-  max-height:430px ;
-  justify-items: space-between;
+  //max-width: 1000px;
+  //max-height:430px ;
+  //align-content: space-between;
 
   &_form{ //setting for width of information text box
     width: 50%;
@@ -37,7 +38,7 @@
   width: 100%;
 }
 
-.icons{         //setting for width of information icons box
+.info-icons{         //setting for width of information icons box
   width: 80px;
   text-align:center ;
   font-size: 50px;
@@ -93,6 +94,7 @@ iframe{
   border: 1px;
   margin: auto;/*Paramètre center*/
   filter: grayscale(100);
+  padding: 10px 30px;
 }
 
 th,td{
