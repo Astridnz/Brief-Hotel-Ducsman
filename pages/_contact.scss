@@ -8,21 +8,21 @@
   padding: 10px 30px;
 }
 
-.dispflex{
+.dispflex{  // setting contents row
   display: flex;
   flex-direction:row;
   align-items: center;
-  margin:20px 0;
-  padding: 10px 0;
+  margin:20px 0; // setting space between contents
+  padding: 10px 0; // setting space inside div
 }
 
-.column{         //setting for width of information text box
+.column{         //setting direction vertical of information text box
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   max-height: max-content;
 }
 
-.Div{
+.Div{  //
   display: flex;
   flex-direction: column;
   //max-width: 1000px;

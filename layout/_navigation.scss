@@ -1,11 +1,23 @@
 /* --------------------------------- Navigation --------------------------------- */
+
+.test1{
+  font-family: $font-family-title;
+}
+.test2{
+  font-family: $font-family-sub-title;
+}
+.test3{
+  font-family: $font-family-text;
+}
+
+
 .nav-principal {
   border: red solid;
   background-color: #000000;
   padding: 15px 30px;
   align-items: center;
-  border-bottom: 1px solid #444;
-  width: 20%;
+  border-bottom: 1px solid #444;//?
+  width: 20%;        // fixé 20% l'espace de l'ecran
   height: 100vh;
   float: left;
   position: fixed;
@@ -23,11 +35,18 @@
 
   align-items: center;
 }
+.tel-nav{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  margin:20px 0; // setting space between contents
+  padding: 10px 0;
+}
 
 .nav-principal h1 {
-  margin-left: 15px;
-  font-size: 1.8rem;
-  color: #e0c080;
+  //margin-left: 15px;
+  font-size: $font-size-l;
+  color: $accent-color;
 }
 
 .nav-principal ul {
@@ -45,8 +64,9 @@
 
 .nav-principal ul li a {
   text-decoration: none;
-  color: #ffffffa4;
-  font-weight: bold;
+  color: $text-color;
+  font-family: $font-family-text;
+  //font-weight: bold;
   transition: color 0.3s;
   line-height: 3em;
   text-align: left;
@@ -65,4 +85,10 @@
   font-size: 1.2rem;
   margin: 0;
   color: #e0c080;
+}
+
+.Font-tel{
+  color: $accent-color;
+  font-size: font-size-m;
+  font-family: $font-family-text;
 }
