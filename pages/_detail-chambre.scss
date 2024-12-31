@@ -2,8 +2,10 @@
 
 /* Style global */
 
-
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin-bottom: 20px;
   color: #f7f7f7;
 }
@@ -16,7 +18,7 @@ p {
 
 /* Section Hero */
 .hero {
-  background: url(/images/rooms/chambre-deluxe.jpg) center/cover;
+  background: url(images/rooms/chambre-deluxe.jpg) center/cover;
   height: 400px;
   display: flex;
   align-items: center;
@@ -68,26 +70,27 @@ p {
   justify-content: space-between;
 }
 
-.check-in, .check-out {
+.check-in,
+.check-out {
   flex: 1;
-
 }
 
-.check-in ul, .check-out ul {
+.check-in ul,
+.check-out ul {
   list-style: none;
   padding: 0;
 }
 
-.check-in ul li, .check-out ul li {
+.check-in ul li,
+.check-out ul li {
   margin-bottom: 10px;
-
 }
 
-.check-in ul li, .check-out ul li::before {
+.check-in ul li,
+.check-out ul li::before {
   content: "\2713";
   margin-right: 10px;
   color: #d4a373;
-  
 }
 .check-in ul li::before {
   content: "\2713";
@@ -145,9 +148,8 @@ button {
   margin-left: 20%;
   flex-grow: 1;
   margin-left: 24%;
- 
 }
 
-.container{
+.container {
   border: blue solid;
 }
