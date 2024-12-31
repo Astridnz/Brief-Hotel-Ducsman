@@ -1,10 +1,45 @@
-/* --------------------------------- Header --------------------------------- */
-.header{
+/* Hero Section */
+.hero {
+  background: url("/") no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 50px 20px;
-  background: url("ressources Ducsman/images/slider/chambre-main.jpg") no-repeat center center;
-  background-size: cover;
   color: #fff;
+  position: relative;
+}
 
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.6); /* Fond sombre pour le texte */
+  padding: 20px 40px;
+  border-radius: 10px;
+}
 
+.hero-subtitle {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #d1a354;
+}
+
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #f4f4f4;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #d1a354;
+  color: #1a1a1a;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #c79e45;
 }
