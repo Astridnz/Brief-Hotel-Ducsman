@@ -45,11 +45,10 @@
     }
 
     .numtel{
-      border: cyan  solid;
       display: flex;
+      padding-left: 1em;
 
       .numtel__icon{
-        border: magenta solid;
         font-size: 2em;
         display: flex;
         align-items: center;
@@ -57,8 +56,7 @@
 
       .numtel__text{
         padding-left: 1em;
-        border: yellow solid;
-        
+        font-size: $font-size-m;
       }
 
     }
@@ -66,14 +64,14 @@
   //   ----------bout de code à insérer dans le HTML--------------
   //   <div class="numtel">
 
-  //   <div class="numtel__icon">
-  //     <span class="gold"><span class="flaticon-call"></span></span>
-  //   </div>
+//   <div class="numtel__icon">
+//   <span class="gold"><span class="flaticon-call"></span></span>
+// </div>
 
-  //   <div class="numtel__text">
-  //     <p>Informations</p>
-  //     <p><span class="gold">03 20 01 02 03</span></p>
-  //   </div>
+// <div class="numtel__text">
+//   <p>Informations <span class="esperluette">&</span> Réservations</p>
+//   <div><span class="gold">03 20 01 02 03</span></div>
+// </div>
 
-  // </div>
+// </div>
 
