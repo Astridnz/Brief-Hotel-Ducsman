@@ -1,63 +1,153 @@
-/* --------------------------------- detail-chambre.scss --------------------------------- */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #fff;
-  display: flex;
-  margin: auto;
+/* --------------------------------- detail-chambre ------------------ */
+
+/* Style global */
+
+
+h1, h2, h3, h4 {
+  margin-bottom: 20px;
+  color: #f7f7f7;
 }
 
+p {
+  line-height: 1.6;
+  margin: 0 0 10px;
+  color: #f7f7f78a;
+}
 
+/* Section Hero */
 .hero {
-  background-image: url(/images/rooms/chambre-deluxe.jpg);
-  height: 800px;
+  background: url(/images/rooms/chambre-deluxe.jpg) center/cover;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
-.hero .hero-content h2 {
-  font-size: 36px;
-  color: #e7e7e7;
+.hero-content {
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.details .check {
-  background-color: $main-background-color;
-  padding: 40px 20px;
-  color: #ddd;
+.hero-content h2 {
+  font-size: 2.5rem;
 }
 
-.details h3 {
-  font-size: 28px;
-  color: #d4a373;
+/* Section Details */
+.details {
+  padding: 50px 30px;
 }
 
-.details ul {
+.details .container {
+  display: flex;
+  gap: 20px;
+}
+
+.details .content {
+  flex: 2;
+}
+
+.details .aménagements {
+  flex: 1;
+  background-color: #333;
+  padding: 20px;
+}
+
+.aménagements h4 {
+  margin-bottom: 15px;
+}
+
+/* Section Check-in / Check-out */
+.chech11 {
+  padding: 30px;
+  background-color: #222;
+}
+
+.chech {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check-in, .check-out {
+  flex: 1;
+
+}
+
+.check-in ul, .check-out ul {
   list-style: none;
   padding: 0;
 }
 
-.details ul li {
-  margin: 5px 0;
+.check-in ul li, .check-out ul li {
+  margin-bottom: 10px;
+
 }
 
-.details ul li::before {
+.check-in ul li, .check-out ul li::before {
   content: "\2713";
   margin-right: 10px;
-  color: $accent-color;
+  color: #d4a373;
+  
 }
-main {
-  width: 80%;
+.check-in ul li::before {
+  content: "\2713";
+  margin-right: 10px;
+  color: #d4a373;
+}
 
+/* Section Footer */
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #bbb;
 }
+
+footer a {
+  color: #e0c080;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 button {
-  background-color: #d4a373;
+  background-color: #68666492;
   border: none;
   padding: 10px 20px;
-  color: #333;
+  color: #ffffff;
   cursor: pointer;
   font-size: 16px;
 }
-h4 {
-  color: $accent-color;
+.slogant {
+  color: #d4a373;
+}
+.aménagements ul li {
+  list-style: none;
+  color: #ffffff9a;
+}
+.tail {
+  display: flex;
+  margin-left: 25px;
+}
+
+.tail .vide2 {
+  flex: 1;
+  background-color: #333;
+  padding: 20px;
+}
+
+.container-prancipal {
+  border: solid greenyellow;
+  width: 80%;
+  margin-left: 20%;
+  flex-grow: 1;
+  margin-left: 24%;
+ 
+}
+
+.container{
+  border: blue solid;
 }

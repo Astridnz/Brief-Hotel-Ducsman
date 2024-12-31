@@ -1,99 +1,68 @@
-
-.navbar{
-  background-color: $nav-background-color;
-  width: 20%;
-  height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
-  overflow-y: auto;
-
-  .titre3{
-    text-align: center;
-    color: $accent-color;
-    padding: 0;
-  }
-  .titregold{
-    text-align: center;
-    color: $title-color;
-
-  .navbar ul{
-    list-style: none;
-  }
-
-  }
-
-  
-}
-
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #1b1a1a;
-}
-
+/* --------------------------------- Navigation --------------------------------- */
 .nav-principal {
-  background-color: #131212;
-  padding: 20px 0;
+  border: red solid;
+  background-color: #000000;
+  padding: 15px 30px;
+  align-items: center;
+  border-bottom: 1px solid #444;
   width: 20%;
-  min-width: 200px;
-  text-align: left;
   height: 100vh;
   float: left;
- 
+  position: fixed;
+  text-align: center;
+
+}
+.icon {         //setting for width of information icons box
+  width: 80px;
+  text-align:center ;
+  font-size: 40px;
+  color : $accent-color;
+}
+
+.nav-principal .container {
+
+  align-items: center;
 }
 
 .nav-principal h1 {
-  margin: 0;
-  font-size: 24px;
-  color: #d4a373;
-  text-align: center;
-}
-
-.nav-principal p {
-  margin: 5px 0;
-  color: #bbb;
-  text-align: center;
+  margin-left: 15px;
+  font-size: 1.8rem;
+  color: #e0c080;
 }
 
 .nav-principal ul {
   list-style: none;
   padding: 0;
-  display: contents;
-  gap: 15px;
+  margin: 0;
+  text-align: left;
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+.nav-principal ul li {
+  margin: 0 15px;
 }
 
 .nav-principal ul li a {
-  color: #d4d1d193;
   text-decoration: none;
+  color: #ffffffa4;
+  font-weight: bold;
+  transition: color 0.3s;
   line-height: 3em;
-  
+  text-align: left;
 }
 
 .nav-principal ul li a:hover {
-  color: #d4a373;
-}
-.div-lien {
-  margin-top: 50px;
-}
-.contact-information {
-  display: flex;
-  margin: 10px;
-  border: solid red;
-}
-.iformation {
-  border: solid rgb(226, 216, 216);
-  text-align: left;
-  
-}
-.icon {
-  border:solid rgb(195, 255, 0);
-}
-h4 {
-  text-align: left;
-  color: rgb(237, 170, 0);
-  margin-top: -10px;
+  color: #e0c080;
 }
 
+.contact-information {
+  display: flex;
+  align-items: center;
+}
+
+.contact-information h4 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #e0c080;
+}
