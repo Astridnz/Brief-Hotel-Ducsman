@@ -11,14 +11,36 @@
   <title>CONTACT</title>
 </head>
 
-<body class="column" style="border: 3px solid blue;">
-  <nav>
-   Navigation space
+<body style="border: 3px solid blue;">
+  <nav class="nav-principal">
+    <div class="container">
+      <img class="iconetoil" src="/ressources Ducsman/images/bandeau - 5 étoiles.png" alt="">
+      <h1>DUCSMAN</h1>
+      <p>Dormez comme jamais</p>
+      <div class="div-liens">
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Chambres & Suites</a></li>
+          <li><a href="#">Restaurant</a></li>
+          <li><a href="#">Centre de bien-être</a></li>
+          <li><a href="#">Actualité</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="contact-information">
+      <div class="icon"><div class="flaticon-call"></div></div>
+      <div class="iformation">
+        <p>Informations & Réservations</p><br>
+        <h4>0320010203</h4>
+      </div>
+    </div>
   </nav>
-
-  <main class="main" style="border: 1px solid rgb(251, 0, 255);">
+  <!--régler width 80% de écran-->
+  <main class="container-prancipal" style="border: 1px solid rgb(251, 0, 255);">
     <!--contact page general div-->
-    <div class="contact-main" style="border: 1px solid red;"> 
+    <div class="contact-main" style="border: 2px solid red;"> 
       <!--contact page l'information d'hotel en Gauche-->
       <div class="Div_form"  style="border: 3px solid rgb(55, 255, 0);">
         <div style="border: 3px solid orange;">
@@ -27,7 +49,7 @@
         </div>
           <!-- telephone-->
         <div class="dispflex" style="border: 3px solid orange;" >
-          <div class="icons"><!--set icons width 100px-->
+          <div class="info-icons"><!--set icons width 100px-->
               <div class="flaticon-call"></div><!--phone icon-->
           </div>
           <div class="column" >
@@ -37,7 +59,7 @@
         </div>
           <!-- E-mail-->
         <div class="dispflex" style="border: 3px solid orange;" >
-          <div class="icons">  <!--set icons width 100px-->          
+          <div class="info-icons">  <!--set icons width 100px-->          
             <div class="flaticon-envelope"></div><!--mail icon-->
           </div>
           <div class="column" >
@@ -47,7 +69,7 @@
         </div>
           <!-- adress-->
         <div class="dispflex" style="border: 3px solid orange;" >
-          <div class="icons"><!--set icons width 100px-->           
+          <div class="info-icons"><!--set icons width 100px-->           
             <div class="flaticon-location-pin"></div><!--address icon-->
           </div>
           <div class="column" >
@@ -81,16 +103,19 @@
     </div>
 
     <!-- Map-->
-    <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.835567262059!2d2.2889342769731393!3d48.86134587133258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe39df5463f%3A0xb358c25f43492e83!2s23%20Av.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1735289630002!5m2!1sfr!2sfr"      
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade"
-        class="Container_map">
-    </iframe>
+    <div class="contact-main">
+      <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.835567262059!2d2.2889342769731393!3d48.86134587133258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe39df5463f%3A0xb358c25f43492e83!2s23%20Av.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1735289630002!5m2!1sfr!2sfr"      
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          class="Container_map"
+          style="border: 2px solid rgb(0, 221, 255);"
+          >
+      </iframe>
+    </div>
   </main>
   <footer>
-
   </footer>
 </body>
 </html>

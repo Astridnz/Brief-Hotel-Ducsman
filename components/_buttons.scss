@@ -35,4 +35,45 @@
       bottom: 100%;
     }
 
-    
+    .btn-savoirplus{
+      background-color: $accent-color;
+      color: $title-color;
+      font-family: $font-family-sub-title;
+      text-transform: uppercase;
+      letter-spacing: 0.5cap;
+      
+    }
+
+    .numtel{
+      border: cyan  solid;
+      display: flex;
+
+      .numtel__icon{
+        border: magenta solid;
+        font-size: 2em;
+        display: flex;
+        align-items: center;
+      }
+
+      .numtel__text{
+        padding-left: 1em;
+        border: yellow solid;
+        
+      }
+
+    }
+
+  //   ----------bout de code à insérer dans le HTML--------------
+  //   <div class="numtel">
+
+  //   <div class="numtel__icon">
+  //     <span class="gold"><span class="flaticon-call"></span></span>
+  //   </div>
+
+  //   <div class="numtel__text">
+  //     <p>Informations</p>
+  //     <p><span class="gold">03 20 01 02 03</span></p>
+  //   </div>
+
+  // </div>
+
