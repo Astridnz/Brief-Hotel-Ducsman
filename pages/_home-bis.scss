@@ -151,111 +151,53 @@ main {
 
 /* Options */
 .options {
-  border: blue solid;
 
-  margin: 40px 0;
-  &__description{
-    border: palevioletred solid;
+
+
+  .option-flex {
+    display: flex;
+    
+    justify-content:space-evenly;
+    flex: 1;
   }
+
+  .option {
+    background-color: $lighter-background-color;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3em;
+  }
+
 }
 
-.option-flex {
-  border: red solid;
-  display: flex;
-  
-  justify-content:space-evenly;
-  flex: 1;
-  
-  
-}
-
-.option {
-  border: green solid;
-  background-color: $lighter-background-color;
-  padding: 3em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
-  
-  text-align: center;
-}
-
-/* Extra services */
-.extra-services {
-  margin: 40px 0;
-}
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 20px;
-  text-align: center;
-}
-
-.service {
-  background-color: #292929;
-  padding: 15px;
-  border-radius: 8px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// --------bloc SERVICES EN + --------------------------------------------------------------
 
 
 .services {
   border: red solid 2px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 
+  &__flex{
+    border: forestgreen solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+  }
   &__service{
-    border: yellow  solid 2px;
-
-    &__icone{
+    border: yellow solid 2px;
+    width: calc(33.33% - 1em); 
+    margin-bottom: 1em; 
+    box-sizing: border-box;
+    
+    [class*="flaticon"]{
       border: blueviolet  solid 2px;
+      color: $title-color;
+      font-size: 5em;
+      color: $accent-color;
     }
   }
 }
