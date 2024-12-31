@@ -16,48 +16,49 @@
    Navigation space
   </nav>
 
-  <main class="main">
+  <main class="main" style="border: 1px solid rgb(251, 0, 255);">
     <!--contact page general div-->
-    <div class="contact-main" style="border: 3px solid red;"> 
+    <div class="contact-main" style="border: 1px solid red;"> 
       <!--contact page l'information d'hotel en Gauche-->
-      <div class="Div_infos"  style="border: 1px solid rgb(55, 255, 0);">
-        <h3>Duscman</h3>
+      <div class="Div_form"  style="border: 3px solid rgb(55, 255, 0);">
+        <div style="border: 3px solid orange;">
+          <h3>Duscman</h3>
           <p class="textdesciption">Nous sommes à votre disposition pour tous question reative à votre séjour ou  pour prepare le plus luxueux des voyarge </p> 
-          
+        </div>
           <!-- telephone-->
-          <div class="dispflex" style="border: 3px solid orange;" >
-            <div class="icons"><!--set icons width 100px-->
+        <div class="dispflex" style="border: 3px solid orange;" >
+          <div class="icons"><!--set icons width 100px-->
               <div class="flaticon-call"></div><!--phone icon-->
-            </div>
-            <div class="column" >
+          </div>
+          <div class="column" >
               <p class="textdesciption"> informations & Réservation</p>
               <p class="TEL-EMAIL">03 20 01 02 03</p>
-            </div>
           </div>
+        </div>
           <!-- E-mail-->
-          <div class="dispflex" style="border: 3px solid orange;" >
-            <div class="icons">  <!--set icons width 100px-->          
-              <div class="flaticon-envelope"></div><!--mail icon-->
-            </div>
-            <div class="column" >
-              <p class="textdesciption">E-mail</p>
-              <p class="TEL-EMAIL">info@ducsman-group.com</p>
-            </div>
+        <div class="dispflex" style="border: 3px solid orange;" >
+          <div class="icons">  <!--set icons width 100px-->          
+            <div class="flaticon-envelope"></div><!--mail icon-->
           </div>
+          <div class="column" >
+            <p class="textdesciption">E-mail</p>
+            <p class="TEL-EMAIL">info@ducsman-group.com</p>
+          </div>
+        </div>
           <!-- adress-->
-          <div class="dispflex" style="border: 3px solid orange;" >
-            <div class="icons"><!--set icons width 100px-->           
-              <div class="flaticon-location-pin"></div><!--address icon-->
-            </div>
-            <div class="column" >
-              <p class="textdesciption">Adresse </p>
-              <p class="textdesciption">avenue des Nations Unies</p>
-              <p class="textdesciption">75001 Paris</p> 
-            </div>
+        <div class="dispflex" style="border: 3px solid orange;" >
+          <div class="icons"><!--set icons width 100px-->           
+            <div class="flaticon-location-pin"></div><!--address icon-->
           </div>
+          <div class="column" >
+            <p class="textdesciption">Adresse </p>
+            <p class="textdesciption">avenue des Nations Unies</p>
+            <p class="textdesciption">75001 Paris</p> 
+          </div>
+        </div>
       </div>
       <!--contact page l'forme en div Droit-->
-        <div class="Div_form"  style="border: 1px solid rgb(17, 141, 64);">
+      <div class="Div_form"  style="border: 3px solid rgb(17, 141, 64);">
           <h3 style="border: 3px solid orange;">Restons en contact</h3>
           <table class="table-deplacement">
             <tr>
@@ -71,22 +72,22 @@
             <tr>
               <td colspan="2">
                 <label class="textdesciption" for="message">message*</label><br>
-                <textarea name="message"maxlength="500"></textarea>
+                <textarea class="textarea-Form" name="message"maxlength="500"></textarea>
               </td>
             </tr> 
           </table>
           <button type="submit" class="formsubmit">ENVOIYER</button>
-        </div>
+      </div>
     </div>
 
     <!-- Map-->
-      <iframe 
+    <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.835567262059!2d2.2889342769731393!3d48.86134587133258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe39df5463f%3A0xb358c25f43492e83!2s23%20Av.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1735289630002!5m2!1sfr!2sfr"      
         allowfullscreen="" 
         loading="lazy" 
         referrerpolicy="no-referrer-when-downgrade"
         class="Container_map">
-      </iframe>
+    </iframe>
   </main>
   <footer>
 
