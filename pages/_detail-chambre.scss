@@ -6,6 +6,7 @@
 h1, h2, h3, h4 {
   margin-bottom: 20px;
   color: #f7f7f7;
+
 }
 
 p {
@@ -16,7 +17,7 @@ p {
 
 /* Section Hero */
 .hero {
-  background: url(/images/rooms/chambre-deluxe.jpg) center/cover;
+  background: url(images/rooms/chambre-deluxe.jpg) center/cover;
   height: 400px;
   display: flex;
   align-items: center;
@@ -26,7 +27,6 @@ p {
 
 .hero-content {
   padding: 20px;
-  border-radius: 10px;
 }
 
 .hero-content h2 {
@@ -49,12 +49,15 @@ p {
 
 .details .aménagements {
   flex: 1;
-  background-color: #333;
+  background-color: #33333300;
   padding: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 .aménagements h4 {
   margin-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 /* Section Check-in / Check-out */
@@ -93,6 +96,29 @@ p {
   content: "\2713";
   margin-right: 10px;
   color: #d4a373;
+
+}
+
+.details .info-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.details .info-icon .flaticon-towel,
+.details .info-icon .flaticon-wifi,
+.details .info-icon .flaticon-group,
+.details .info-icon .flaticon-marker,
+.details .info-icon .flaticon-breakfast,
+.details .info-icon .flaticon-swimming {
+  font-size: 24px;
+  color: #c9a368;
+  margin-right: 10px;
+}
+
+.details .info-icon .i-text p {
+  margin: 0;
+  color: #bbb;
 }
 
 /* Section Footer */
@@ -135,7 +161,7 @@ button {
 
 .tail .vide2 {
   flex: 1;
-  background-color: #333;
+  background-color: #33333300;
   padding: 20px;
 }
 
@@ -145,6 +171,7 @@ button {
   margin-left: 20%;
   flex-grow: 1;
   margin-left: 24%;
+  font-family: $font-family-text;
  
 }
 
