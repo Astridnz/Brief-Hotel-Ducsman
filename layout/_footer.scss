@@ -4,22 +4,10 @@
 
 .footer{
   border: red 2px dotted;
-  width: 80%;
-  float: right;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   
-
-    .titre4{
-    font-family: $font-family-title;
-    font-size: $font-size-m;
-    font-weight:500;
-  }
-    p{
-    font-family: $font-family-text;
-    font-size: $font-size-xs;
-  }
     a{
     text-decoration: none;
     color: $text-color;
@@ -27,6 +15,9 @@
 
 
 &__apropos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   border: blue  dotted 2px;
   width: 40%;
   margin-left:10%;
@@ -41,20 +32,21 @@
 
   &__iconesReseauxSociaux{
     border: dotted 2px skyblue;
-    margin: 5px 5px;
+    padding: 1em;
     display: flex;
+    gap: 0.5em;
     justify-content: space-between;
-    color: yellow;
-  }
 
-  &__phone{
-    border: green 2px dotted;
-    text-align: left;
+    [class*="ti-"]{
+      border: blueviolet  solid 2px;
+      color: $title-color;
+      font-size: 2em;
+    }
+  }
     
 }
 
 &__mailHotel{
-  border: purple dotted 2px;
   text-decoration: underline;
   text-decoration-color: $accent-color;
   font-weight:600;
@@ -62,15 +54,13 @@
 }
 
 &__mentionsLégales{
-  border: dotted 2px yellow;
   width: 100%;
   text-align: center;
-  font-size: $font-size-xs;
-  padding: 20px;
+  padding: 2em;
   background-color: $darker-bacground-color;
-  span{
-    font-weight: bold;
-  }
-  }
   
-}
+    
+  }
+
+  
+

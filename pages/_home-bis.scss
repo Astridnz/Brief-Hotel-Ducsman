@@ -181,6 +181,7 @@ main {
 
   &__flex{
     border: forestgreen solid;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -189,6 +190,7 @@ main {
   }
   &__service{
     border: yellow solid 2px;
+    padding: 1em;
     width: calc(33.33% - 1em); 
     margin-bottom: 1em; 
     box-sizing: border-box;
@@ -201,8 +203,7 @@ main {
       margin: 0.5em;
     }
 
-    .titre4{
-      font-size: $font-size-m;
-    }
   }
 }
+
+  

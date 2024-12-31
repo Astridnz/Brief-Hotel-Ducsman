@@ -50,18 +50,15 @@
     // -----------------------------------------------------------------
 
     .numtel{
-      border: red solid;
       display: flex;
   
       .numtel__icon{
-        border: green solid;
         font-size: $font-size-l;
         display: flex;
         align-items: center;
       }
 
       .numtel__text{
-        border: yellow  solid;
         padding-left: 1em;
         font-size: $font-size-m;
       }
@@ -87,4 +84,20 @@
 .esperluette{
   font-family: $font-family-text;
   font-weight: 300;
+}
+
+.numtelfooter{
+  display: flex;
+
+  .numtelfooter-icon{
+    font-size: $font-size-l;
+    display: flex;
+    align-items: center;
+  }
+
+  .numtelfooter-text{
+    padding-left: 1em;
+    font-size: $font-size-m;
+  }
+
 }
