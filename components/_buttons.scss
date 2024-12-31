@@ -18,7 +18,7 @@
     //   <span class="ti-star"></span>
     // </div>
 
-
+// -----------------------------------------------------------------
 
     .btn-reserver {
       font-family: $font-family-sub-title;
@@ -35,6 +35,9 @@
       bottom: 100%;
     }
 
+    // -----------------------------------------------------------------
+
+
     .btn-savoirplus{
       background-color: $accent-color;
       color: $title-color;
@@ -44,17 +47,21 @@
       
     }
 
-    .numtel{
-      display: flex;
-      padding-left: 1em;
+    // -----------------------------------------------------------------
 
+    .numtel{
+      border: red solid;
+      display: flex;
+  
       .numtel__icon{
-        font-size: 2em;
+        border: green solid;
+        font-size: $font-size-l;
         display: flex;
         align-items: center;
       }
 
       .numtel__text{
+        border: yellow  solid;
         padding-left: 1em;
         font-size: $font-size-m;
       }
@@ -69,9 +76,15 @@
 // </div>
 
 // <div class="numtel__text">
-//   <p>Informations <span class="esperluette">&</span> Réservations</p>
+//   <p class="textdescription">Informations <span class="esperluette">&</span> Réservations</p>
 //   <div><span class="gold">03 20 01 02 03</span></div>
 // </div>
 
 // </div>
 
+// -----------------------------------------------------------------
+
+.esperluette{
+  font-family: $font-family-text;
+  font-weight: 300;
+}

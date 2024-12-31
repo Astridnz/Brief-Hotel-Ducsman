@@ -185,7 +185,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
 
-
+    
   }
   &__service{
     border: yellow solid 2px;
@@ -198,6 +198,11 @@ main {
       color: $title-color;
       font-size: 5em;
       color: $accent-color;
+      margin: 0.5em;
+    }
+
+    .titre4{
+      font-size: $font-size-m;
     }
   }
 }
