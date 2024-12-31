@@ -25,22 +25,16 @@
   display: flex;
   flex-direction: column;
   max-width: 1000px;
-  height:50vh ;
+  max-height:430px ;
+  justify-items: space-between;
 
-  &_info{       //setting for width of information text box
-    width: 50%;
-    //height: 1000px;
-  }
-  &_form{
+  &_form{ //setting for width of information text box
     width: 50%;
     height: 100%;
-    justify-content: space-between;
-    padding:20px 0;
   }
 }
 .table-deplacement{
   width: 100%;
-  height: 30cap;
 }
 
 .icons{         //setting for width of information icons box
@@ -80,13 +74,10 @@
 input{
   background-color: $main-background-color;//textbox backgraund color
   border:none;                    //Supplimer border
-  border-bottom: 1px solid $text-color;//Pour définir bottom border 
-  //height: 30px;
-
-  
+  border-bottom: 1px solid $text-color;//Pour définir bottom border   
 }
 
-textarea {
+.textarea-Form {
   height: 100px;
   background-color: $main-background-color;
   border:none;
@@ -104,6 +95,7 @@ iframe{
   filter: grayscale(100);
 }
 
-/*th,td{
-  border: 1px solid white;
-}*/
+th,td{
+  //border: 1px solid white;
+  height: 10cap;
+}
