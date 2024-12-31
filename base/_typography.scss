@@ -60,3 +60,22 @@
   padding: 0em;
 }
 
+.titlemini{
+  color: $title-color;
+  font-family: $font-family-title;
+  font-size: $font-size-m;
+  line-height: 0.7;
+}
+
+.gold{
+  color: $accent-color;
+  font-size: $font-size-l;
+}
+
+.ti-check{
+  color: $accent-color;
+}
+
+p{
+  font-family: $font-family-text;
+}

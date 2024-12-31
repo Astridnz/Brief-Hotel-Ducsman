@@ -1,6 +1,6 @@
 
 main {
-  width: 80%;
+
   display: flex;
   flex-direction: column;
 
@@ -118,6 +118,22 @@ main {
       width: 50%;
       padding: 2em;
       background-color: $lighter-background-color;
+      font-family: $font-size-s;
+
+      .titregold{
+        font-size: $font-size-s;
+      }
+
+      .titre3{
+        font-size: $font-size-l;
+        padding-top: 1em;
+      }
+
+      .textdesciption{
+        font-size: $font-size-s;
+        padding-bottom: 2em;
+        padding-top: 2em;
+      }
     }
 
     & img {
@@ -133,29 +149,35 @@ main {
   }
 }
 
-
-
-
-
-
-
-
-
 /* Options */
 .options {
+  border: blue solid;
+
   margin: 40px 0;
+  &__description{
+    border: palevioletred solid;
+  }
 }
 
-.option-grid {
+.option-flex {
+  border: red solid;
   display: flex;
-  gap: 20px;
-  justify-content: center;
+  
+  justify-content:space-evenly;
+  flex: 1;
+  
+  
 }
 
 .option {
-  background-color: #292929;
-  padding: 20px;
-  border-radius: 8px;
+  border: green solid;
+  background-color: $lighter-background-color;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
   text-align: center;
 }
 
