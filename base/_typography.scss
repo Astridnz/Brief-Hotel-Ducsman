@@ -76,3 +76,13 @@
 .font-bold{
   font-weight: 800;
 }
+
+.nav-titre3{
+  color: $title-color;
+  font-size: $font-size-s;
+  font-family: $font-family-sub-title;
+  text-align: center;
+  letter-spacing: 0.8cap;
+  margin: 0em;
+  padding: -.80em;
+}
