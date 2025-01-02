@@ -34,14 +34,13 @@ main {
     }
 
     .intro-grid {
-      border: red solid;
       display: grid;
       grid-template-columns: 50%  50%;
       gap: 20px;
     }
 
     &__images img{
-      border: blue  solid;
+
       width: 40%;
       margin: 20px;
 
