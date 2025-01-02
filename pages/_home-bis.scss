@@ -177,11 +177,10 @@ main {
 
 
 .services {
-  border: red solid 2px;
+
 
 
   &__flex{
-    border: forestgreen solid;
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
@@ -199,14 +198,12 @@ main {
     box-sizing: border-box;
 
     &_text{
-      border: yellow  solid;
       width: 60%;
       margin-top: 2em;
       text-align: center;
     }
     
     [class*="flaticon"]{
-      border: blueviolet  solid 2px;
       color: $title-color;
       font-size: 5em;
       color: $accent-color;
