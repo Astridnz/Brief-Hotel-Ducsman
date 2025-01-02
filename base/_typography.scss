@@ -9,7 +9,6 @@
   text-transform: uppercase;
   letter-spacing: 1cap;
   margin: 0em;
-  padding-left: 2em;
 }
 
 .titre2{
@@ -50,7 +49,7 @@
 
 .titregold{
   color: $accent-color;
-  font-size: $font-size-xs;
+  font-size: $font-size-s;
   font-family: $font-family-sub-title;
   text-transform: uppercase;
   letter-spacing: 0.5cap;
