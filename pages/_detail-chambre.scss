@@ -2,6 +2,14 @@
 
 /* Style global */
 
+.container-prancipal {
+  width: 80%;
+  margin-left: 20%;
+  flex-grow: 1;
+  margin-left: 24%;
+  font-family: $font-family-text;
+}
+
 h1,
 h2,
 h3,
@@ -18,14 +26,21 @@ p {
 
 /* Section Hero */
 .hero {
-  background: url(images/rooms/chambre-deluxe.jpg) center/cover;
+  background: url(images/rooms/chambre-deluxe.jpg) center/cover; 
   height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-
 }
+
+.hero {
+  background-color: rgba(33, 33, 33, 0.008);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+
 
 .hero-content {
   padding: 20px;
@@ -65,6 +80,7 @@ p {
   margin-bottom: 15px;
   padding-bottom: 10px;
 }
+
 
 /* Section Check-in / Check-out */
 .chech11 {
@@ -151,24 +167,8 @@ p {
   color: #bbb;
 }
 
-/* Section Footer */
-footer {
-  background-color: #111;
-  padding: 20px;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #bbb;
-}
 
-footer a {
-  color: #e0c080;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
+/* Style button */
 button {
   background-color: #68666492;
   border: none;
@@ -176,7 +176,14 @@ button {
   color: #ffffffa8;
   cursor: pointer;
   font-size: 16px;
+  margin-bottom: 50px;
 }
+
+button:hover {
+  background-color: $accent-color;
+}
+
+
 .slogant {
   color: #d4a373;
 }
@@ -201,12 +208,5 @@ margin-left: 50px;
  }
 
 
-.container-prancipal {
-  width: 80%;
-  margin-left: 20%;
-  flex-grow: 1;
-  margin-left: 24%;
-  font-family: $font-family-text;
-}
 
 
