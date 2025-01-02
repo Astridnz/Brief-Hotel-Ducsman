@@ -85,10 +85,13 @@
 input{
   background-color: $main-background-color;//textbox backgraund color
   border:none;                    //Supplimer border
-  border-bottom: 1px solid $text-color;//Pour définir bottom border   
+  border-bottom: 1px solid $text-color;//Pour définir bottom border 
+  box-sizing: border-box;  
 }
 
 .textarea-Form {
+  box-sizing: border-box;
+  width: 80%;
   height: 100px;
   background-color: $main-background-color;
   border:none;
