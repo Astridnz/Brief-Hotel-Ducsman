@@ -41,7 +41,7 @@
 
 .textdesciption{
   color: $text-color;
-  font-size: $font-size-xs;
+  font-size: $font-size-s;
   font-family: $font-family-text;
   text-align: start;
   margin: 0em;
@@ -74,3 +74,6 @@
   color: $accent-color;
 }
 
+.font-bold{
+  font-weight: 800;
+}
