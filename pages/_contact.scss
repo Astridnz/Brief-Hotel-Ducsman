@@ -46,12 +46,13 @@
   color : $accent-color;
 }
 
-
-
-.TEL-EMAIL{
+.contact-EMAIL{
   color : $accent-color;
-  font-size: $font-size-s ;
+  font-size: $font-size-m ;
+  font-family: $font-family-sub-title;
+  text-align: left;
 }
+
 
 .main {
     background-color: $main-background-color;
