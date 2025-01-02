@@ -19,16 +19,18 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 30%;
+  width: 60%;
 }
 
 &__contact{
   width: max-content;
   text-align: center;
+  width: 20%;
 
   &__numtel{
     .numtel{
     color: $title-color;
+    font-family: $font-family-sub-title;
     background-color: transparent;
     font-size: $font-size-m;
     display: flex;
@@ -52,6 +54,7 @@
     }
   }
   &__mailHotel{
+    text-align: left;
 
     .mailhotel{
       color: $title-color;
@@ -60,6 +63,7 @@
       text-decoration-color: $accent-color;
       font-weight:400;
       text-underline-offset: 0.3em;
+      font-size: $font-size-s;
     }
   }
 }
@@ -67,12 +71,19 @@
 
 
 &__mentionsLégales{
+  display: inline;
   width: 100%;
   text-align: center;
   padding: 2em;
   background-color: $darker-bacground-color;
-  order: 1; 
-  margin-top: auto;
+  
+    a{
+      color: $title-color;
+    }
+    span, p{
+      display: inline;
+      margin: 0;
+    }
   }
 }
 
