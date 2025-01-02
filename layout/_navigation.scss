@@ -12,10 +12,10 @@
 
 
 .nav-principal {
-  background-color: #000000;
+  background-color: $darker-bacground-color;
   padding: 15px 30px;
   align-items: center;
-  border-bottom: 1px solid #444;//?
+  // border-bottom: 1px solid #444;//?
   width: 20%;        // fixé 20% l'espace de l'ecran
   height: 100vh;
   float: left;      // fix position d'ecran gouche
@@ -90,4 +90,13 @@
   color: $accent-color;
   font-size: font-size-m;
   font-family: $font-family-text;
+}
+
+.nav-titre3{
+  color: $title-color;
+  font-size: $font-size-m;
+  font-family: $font-family-title;
+  text-align: center;
+  margin: 0em;
+  padding: 0em;
 }
