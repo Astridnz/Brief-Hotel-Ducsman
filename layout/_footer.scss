@@ -6,6 +6,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: $main-background-color;
+  
   
     a{
     text-decoration: none;
@@ -17,15 +19,26 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 40%;
-  margin-left:10%;
+  width: 30%;
 }
 
 &__contact{
   width: max-content;
-  margin-right: 10%;
-  padding-left: 10px;
-  text-align: left;
+  text-align: center;
+
+  &__numtel{
+    .numtel{
+    color: $title-color;
+    background-color: transparent;
+    font-size: $font-size-m;
+    display: flex;
+    align-items: center;
+    }
+    .flaticon-call{
+      font-size: $font-size-s;
+      padding-right: 0.2em;
+    }
+  }
 
   &__iconesReseauxSociaux{
     padding: 1em;
@@ -38,22 +51,28 @@
       font-size: 2em;
     }
   }
-    
+  &__mailHotel{
+
+    .mailhotel{
+      color: $title-color;
+      background-color: rgba(255,255,255,0);
+      text-decoration: underline;
+      text-decoration-color: $accent-color;
+      font-weight:400;
+      text-underline-offset: 0.3em;
+    }
+  }
 }
 
-&__mailHotel{
-  text-decoration: underline;
-  text-decoration-color: $accent-color;
-  font-weight:600;
-}
+
 
 &__mentionsLégales{
   width: 100%;
   text-align: center;
   padding: 2em;
   background-color: $darker-bacground-color;
-  
-    
+  order: 1; 
+  margin-top: auto;
   }
 }
 
