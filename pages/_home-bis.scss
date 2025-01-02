@@ -179,9 +179,11 @@ main {
 .services {
   border: red solid 2px;
 
+
   &__flex{
     border: forestgreen solid;
-
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -189,11 +191,19 @@ main {
     
   }
   &__service{
-    border: yellow solid 2px;
-    padding: 1em;
-    width: calc(33.33% - 1em); 
+    border: $text-color solid 2px;
+    padding: 2em;
+    width: calc(33.33% - 1em);
+    height: 25em; 
     margin-bottom: 1em; 
     box-sizing: border-box;
+
+    &_text{
+      border: yellow  solid;
+      width: 60%;
+      margin-top: 2em;
+      text-align: center;
+    }
     
     [class*="flaticon"]{
       border: blueviolet  solid 2px;
