@@ -33,6 +33,7 @@
     width: 50%;
     height: 100%;
     margin:0 10px;
+    padding-left: 10px;
   }
 }
 .table-deplacement{
@@ -46,11 +47,19 @@
   color : $accent-color;
 }
 
+.cont-text{
+  color: $text-color;
+  font-size: $font-size-s;
+  font-family: $font-family-text;
+  text-align: start;
+  margin: 5em;
+  padding-right: 30px;
+}
+
 .contact-EMAIL{
   color : $accent-color;
   font-size: $font-size-m ;
   font-family: $font-family-sub-title;
-  text-align: left;
 }
 
 
