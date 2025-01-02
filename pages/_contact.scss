@@ -114,3 +114,25 @@ th,td{
   //border: 1px solid white;
   height: 10cap;
 }
+
+// pour mobile adjast font size
+@media screen and (max-width: 768px) {
+
+  // changer row à column des contents
+  .contact-main{
+    flex-direction:column;
+    margin:10px 0;
+    padding: 5px 10px;
+  }
+
+  .info-icons{         //setting for width of information icons box
+    max-width: 40px;
+    font-size: 30px;
+    padding: 5px 10px;
+  }
+  .contact-EMAIL{
+    font-size: $font-size-s ;
+  }  
+  
+
+}
