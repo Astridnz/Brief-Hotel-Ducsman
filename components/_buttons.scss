@@ -86,18 +86,3 @@
   font-weight: 300;
 }
 
-.numtelfooter{
-  display: flex;
-
-  .numtelfooter-icon{
-    font-size: $font-size-l;
-    display: flex;
-    align-items: center;
-  }
-
-  .numtelfooter-text{
-    padding-left: 1em;
-    font-size: $font-size-m;
-  }
-
-}
