@@ -188,8 +188,11 @@ main {
     justify-content: center;
     text-align: center;
     margin-bottom: 3em;
-  }
+}
 
+.option .titlemini {
+  margin-bottom: 10%; /* Ajustez cette valeur selon l'espacement souhaité */
+}
 }
 
 // --------bloc SERVICES EN + --------------------------------------------------------------
