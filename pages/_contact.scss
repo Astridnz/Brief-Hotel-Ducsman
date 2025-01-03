@@ -38,6 +38,7 @@
 }
 .table-deplacement{
   width: 100%;
+  border-collapse: collapse;
 }
 
 .info-icons{         //setting for width of information icons box
@@ -47,14 +48,6 @@
   color : $accent-color;
 }
 
-.cont-text{
-  color: $text-color;
-  font-size: $font-size-s;
-  font-family: $font-family-text;
-  text-align: start;
-  margin: 5em;
-  padding-right: 30px;
-}
 
 .contact-EMAIL{
   color : $accent-color;
@@ -121,10 +114,14 @@ th,td{
   // changer row à column des contents
   .contact-main{
     flex-direction:column;
-    margin:10px 0;
+    margin:3px 0;
     padding: 5px 10px;
   }
-
+  .dispflex{  // setting contents row
+    margin:0; // setting space between contents
+    padding:0; // setting space inside div
+  }
+  
   .info-icons{         //setting for width of information icons box
     max-width: 40px;
     font-size: 30px;
@@ -133,6 +130,10 @@ th,td{
   .contact-EMAIL{
     font-size: $font-size-s ;
   }  
+
+  .table-deplacement {
+    width: auto; /* ajustment table taille */
+  }
   
 
 }
