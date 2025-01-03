@@ -228,6 +228,8 @@ margin-left: 50px;
 
   .details .aménagements {
     margin: 20px 0;
+    width: 100%;
+    text-align: center;
   }
 
   /* Section Check-in / Check-out */
@@ -254,6 +256,9 @@ margin-left: 50px;
   .tail .vide2 {
     display: none;
   }
+  .btn-reserver-maintenant {
+    width: 100%;
+  }
 
   /* Footer */
   .footer {
@@ -269,6 +274,7 @@ margin-left: 50px;
 
   .footer__mentionsLégales {
     text-align: center;
+
   }
 }
 
