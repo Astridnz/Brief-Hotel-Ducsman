@@ -6,17 +6,18 @@
   align-items: center;
   margin:30px 0;
   padding: 10px 30px;
+
 }
 
-.dispflex{  // setting contents row
+.dispflex{  /* setting contents row*/
   display: flex;
   flex-direction:row;
   align-items: center;
-  margin:20px 0; // setting space between contents
-  padding: 10px 0; // setting space inside div
+  margin:20px 0; /* setting space between contents*/
+  padding: 10px 0; /* setting space inside div*/
 }
 
-.contact-column{         //setting direction vertical of information text box
+.contact-column{         /*setting direction vertical of information text box*/
   display: flex;
   flex-direction: column; 
   max-height: max-content;
@@ -25,11 +26,9 @@
 .Div{  //
   display: flex;
   flex-direction: column;
-  //max-width: 1000px;
-  //max-height:430px ;
-  //align-content: space-between;
 
-  &_form{ //setting for width of information text box
+
+  &_form{ /*setting for width of information text box*/
     width: 50%;
     height: 100%;
     margin:0 10px;
@@ -41,7 +40,7 @@
   border-collapse: collapse;
 }
 
-.info-icons{         //setting for width of information icons box
+.info-icons{         /*setting for width of information icons box*/
   width: 80px;
   text-align:center ;
   font-size: 50px;
@@ -76,9 +75,9 @@
 }
 
 input{
-  background-color: $main-background-color;//textbox backgraund color
-  border:none;                    //Supplimer border
-  border-bottom: 1px solid $text-color;//Pour définir bottom border 
+  background-color: $main-background-color;/*textbox backgraund color*/
+  border:none;                    /*Supplimer border*/
+  border-bottom: 1px solid $text-color;/* Pour définir bottom border */
   box-sizing: border-box;  
 }
 
@@ -90,6 +89,7 @@ input{
   border:none;
   border-bottom: 1px solid $text-color;
 }
+
 
 
 iframe{
@@ -104,25 +104,25 @@ iframe{
 }
 
 th,td{
-  //border: 1px solid white;
+  /*border: 1px solid white;*/
   height: 10cap;
 }
 
-// pour mobile adjast font size
+/* pour mobile adjast font size*/
 @media screen and (max-width: 768px) {
 
-  // changer row à column des contents
+  /* changer row à column des contents*/
   .contact-main{
     flex-direction:column;
     margin:3px 0;
     padding: 5px 10px;
   }
-  .dispflex{  // setting contents row
-    margin:0; // setting space between contents
-    padding:0; // setting space inside div
+  .dispflex{  /* setting contents row*/
+    margin:0; /* setting space between contents*/
+    padding:0; /* setting space inside div */
   }
   
-  .info-icons{         //setting for width of information icons box
+  .info-icons{         /*setting for width of information icons box*/
     max-width: 40px;
     font-size: 30px;
     padding: 5px 10px;
