@@ -194,36 +194,82 @@ margin-left: 50px;
 
 
 
- @media (max-width: 700px) {
-  .hero {
-    height: 50vh;
-  }
-
-  .hero-content h2 {
-    font-size: 1.5rem;
-  }
-
-  .tail .centre-page {
-    width: 90%;
-    margin: auto;
-  }
-}
-
-@media (max-width: 480px) {
-  nav .nav-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero-content {
+ @media (max-width: 768px) {
+  /* conteneur principal */
+  .container-prancipal {
+    margin-left: 0;
     padding: 10px;
   }
 
-  .btn-reserver-maintenant {
-    width: 100%;
-    padding: 15px;
+ 
+  /* Section Hero */
+  .hero {
+    height: auto;
+    padding: 20px 10px;
   }
 
-  
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-content .titre1 {
+    font-size: 2rem;
+  }
+
+  /* Section Details */
+  .details .container {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .details .content {
+    padding-right: 0;
+  }
+
+  .details .aménagements {
+    margin: 20px 0;
+  }
+
+  /* Section Check-in / Check-out */
+  .chech {
+    flex-direction: column;
+  }
+
+  .check-in,
+  .check-out {
+    margin-bottom: 20px;
+  }
+
+  /* Section Instructions */
+  .tail {
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  .tail .centre-page {
+    width: 100%;
+    margin: 5px;
+  }
+
+  .tail .vide2 {
+    display: none;
+  }
+
+  /* Footer */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__contact__iconesReseauxSociaux a {
+    margin: 5px;
+  }
+
+  .footer__mentionsLégales {
+    text-align: center;
+  }
 }
+
 
